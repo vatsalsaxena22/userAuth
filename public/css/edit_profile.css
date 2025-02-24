@@ -1,0 +1,76 @@
+/* Edit Profile Styles */
+.edit-profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.profile-nav h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} 
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #666;
+  font-size: 14px;
+}
+
+
+.nav-link {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  background-color: #f8f9fa;
+  color: #666;
+}
+
+.form-group a:hover{
+  text-decoration: none;
+  color: #45a049;
+  color: #666;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-nav h2 {
+    font-size: 15px;
+  }
+  .profile-nav {
+    font-size: 12px;
+  }
+  .edit-profile-container {
+    padding: 10px;
+  }
+}
